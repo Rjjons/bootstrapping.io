@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: hsla(204, 33%, 97%, 1);
+
+  /* background-color: hsl(204, 71%, 55%); */
+
+  /* background-color: rgb(205, 193, 217); */
+}
+
+.float-end {
+  float: right;
+
+}
+
+.first-logo {
+  margin-left: 4px;
+  
+}
+
+.navbar-brand {
+  width: 91px;
+  height: 40px;
+  border: 2px solid hsl(213, 94%, 49%);
+  border-radius: 5px;
+  color: hsla(211, 35%, 17%, 1);
+  font-size: 14px;
+  padding-left: 50px;
+  text-align: center; 
+
+}
+
+.nav-link {
+  /* margin: 25px 24px 22px 22px; */
+  margin: 10px;
+}
+
+hr {
+  width: 90%;
+  height: 5px;
+  margin: auto;
+  background-color: hsla(204, 18%, 90%, 1);
+
+  
+}
+
+
+
+

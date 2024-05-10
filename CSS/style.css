@@ -3,6 +3,7 @@ body {
   padding: 0;
   background: hsla(204, 33%, 97%, 1);
 
+
   /* background-color: hsl(204, 71%, 55%); */
 
   /* background-color: rgb(205, 193, 217); */
@@ -39,9 +40,38 @@ hr {
   width: 90%;
   height: 5px;
   margin: auto;
-  background-color: hsla(204, 18%, 90%, 1);
+  background-color: hsla(204, 18%, 90%, 1)
+}
 
+.col{
+  background-color: hsla(204, 84%, 41%, 1);
+  color:  hsla(0, 0%, 100%, 1);
+  margin-top: 115px;
+}
+
+
+.col-2  {
+ margin-top: 115px;
+  margin-left: 420px;
+  height: 600px;
+  background-color: #FFFFFF;
   
+}
+
+/* left-container  */
+
+div h2 {
+  width: 400px;
+}
+
+footer span {
+  color: hsl(200, 29%, 51%);
+  
+}
+
+footer {
+  text-align: center;
+  margin-top: 34px;
 }
 
 

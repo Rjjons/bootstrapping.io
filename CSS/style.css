@@ -51,7 +51,7 @@ hr {
   background-color: hsla(204, 84%, 41%, 1);
   color:  hsla(0, 0%, 100%, 1);
   margin-top: 115px;
-  width: 300px;
+  width: 290px;
   
   
 }
@@ -198,8 +198,15 @@ input {
 
 /* left-container-styling  */
 
+
+h5 {
+  margin-inline: 41px;
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
 .col h5 {
-  margin-top: 41px !important;
+  margin-top: 15px !important;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -207,12 +214,56 @@ input {
 .ninety-nine {
   font-size: 40px;
   font-weight: 300px;
+  margin-bottom: 3px;
+  margin-inline: 15px;
   p{
     sub{
       /* color: red; */
       font-size: 18px;
       margin-left: 2px;
     }
+  }
+}
+
+.auto {
+  font-size: 16px;
+  font-weight: 400px;
+  font-style: italic;
+  line-height: 30px;
+  margin-inline: 15px;
+}
+
+.five-client {
+  /* color: red; */
+  line-height: 40px;
+  margin-inline: 15px;
+  margin-top: 36px;
+}
+
+.twenty-clients {
+  margin-inline: 20p;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 39px;
+  margin-inline: 15px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.ftp {
+  margin-top: 30px;
+  margin-inline: 15px;
+  line-height: 27px;
+
+  span  img {
+    
+
+    margin-top: 20px;
+  }
+  span {
+    margin-block: 27px;
+    color: black;
+
   }
 }
 

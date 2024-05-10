@@ -52,6 +52,7 @@ hr {
   color:  hsla(0, 0%, 100%, 1);
   margin-top: 115px;
   
+  
 }
 
 
@@ -66,8 +67,22 @@ hr {
 
 /* left-container  */
 
-div h2 {
+.shadowP p {
   width: 400px;
+  margin-inline: 48px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400px;
+  margin-top: 27px;
+  margin-bottom: 24px;
+  text-shadow: 1px 2px 3px  hsla(211, 35%, 17%, 1);
+  
+}
+
+.d-horizontal {
+  height: 2px;
+  width: 445px;
+  margin-left: 0px;
 }
 
 
@@ -90,6 +105,57 @@ div h2 {
 
 .needHelp  {
   margin-inline: 15px;
+}
+
+.info {
+  width: 30px;
+  height: 30px;
+  border:  2px solid  hsl(211, 49%, 55%);;
+  border-radius: 100%;
+  /* padding: 8px 8px 5px 8px; */
+  margin-inline: 15px;
+  color: hsl(211, 49%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 15px;
+}
+
+.item1   {
+  color:  hsla(211, 35%, 17%, 1);
+  font-size: 18px;
+  font-weight: 700px;
+  display: inline-flex;
+
+}
+
+ .label1  {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 16px;
+  margin-bottom: 7px;
+  margin-inline: 15px;
+  color:  hsla(211, 35%, 17%, 1);
+}
+
+input {
+  margin-inline: 15px;
+  /* border: solid red; */
+  background-color: hsla(216, 16%, 94%, 1);
+  border: solid 2px  hsla(216, 16%, 94%, 1);
+  height: 36px;
+  width: 200px;
+
+  border-radius: 2px;
+}
+
+.lineUp {
+  display: inline-flex;
+  margin-inline-end: 47px;
+}
+
+.itemField {
+  /* color: red; */
 }
 
 .sp {

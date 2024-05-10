@@ -59,8 +59,9 @@ hr {
 .col-4  {
  margin-top: 115px;
   margin-left: 300px;
-  height: 600px;
+  height: 700px;
   background-color: #FFFFFF;
+  
   
   
 }
@@ -82,7 +83,7 @@ hr {
 .d-horizontal {
   height: 2px;
   width: 445px;
-  margin-left: 0px;
+  
 }
 
 
@@ -126,7 +127,18 @@ hr {
   font-size: 18px;
   font-weight: 700px;
   display: inline-flex;
+  margin-top: 3px;
+  margin-bottom: 9px;
 
+}
+
+.itemField {
+  margin-top: 15px;
+}
+
+.itemField input {
+  
+  width: 360px;
 }
 
  .label1  {
@@ -156,6 +168,14 @@ input {
 
 .itemField {
   /* color: red; */
+  margin-bottom: 33px;
+}
+
+.Credit-Card input{
+  background-color: hsla(216, 16%, 94%, 1);
+  width: 500px;
+  margin-bottom: 41px;
+
 }
 
 .sp {

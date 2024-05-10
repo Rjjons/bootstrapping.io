@@ -51,15 +51,17 @@ hr {
   background-color: hsla(204, 84%, 41%, 1);
   color:  hsla(0, 0%, 100%, 1);
   margin-top: 115px;
+  width: 300px;
   
   
 }
 
 
-.col-4  {
+.col-5 {
  margin-top: 115px;
   margin-left: 300px;
   height: 700px;
+  
   background-color: #FFFFFF;
   
   
@@ -173,7 +175,7 @@ input {
 
 .Credit-Card input{
   background-color: hsla(216, 16%, 94%, 1);
-  width: 500px;
+  width: 440px;
   margin-bottom: 41px;
 
 }

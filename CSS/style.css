@@ -89,11 +89,12 @@ hr {
 }
 
 
-.buy-Wp {
+/* .buy-Wp */
+button {
   background-color: hsla(173, 96%, 28%, 1);
   color: hsla(0, 0%, 100%, 1);
   text-align: center;
-  width: 350px;
+  width: 450px;
   height: 45px;
   margin-inline: 15px;
   border-radius: 5px;
@@ -101,9 +102,11 @@ hr {
   margin-bottom: 13px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-top: 15px;
+  padding-bottom: 17px;
   
-  padding-left: 110px;
+  /* padding-left: 110px; */
 }
 
 .needHelp  {

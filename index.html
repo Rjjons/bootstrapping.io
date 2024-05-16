@@ -22,18 +22,24 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-sm navbar-white  bg-white">
       <div class="container-fluid">
-        <div class="logo">
+        <div class="navbar-brand">
           <a class="first-logo" href="#">
             <img src="images/wppusher-logo.svg" alt="" />
           </a>
         </div>
 
-        <div class="float-end">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link " aria-current="page" href="#"
                 >Download</a
               >
             </li>
@@ -46,17 +52,17 @@
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                
               >
                 Pricing
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Help</a>
+              <a class="nav-link" >Help</a>
             </li>
 
-            <li class="nav-item text-body-secondary">
-              <a class="nav-link navbar-brand" aria-disabled="true">Account</a>
+            <li class="nav-item ">
+              <a class="nav-link navbar-brand" >Account</a>
             </li>
           </ul>
         </div>
@@ -75,45 +81,67 @@
             </div>
             <hr class="d-horizontal" />
 
-            <div class="item1">
-              <span class="info">1</span>
-              <div>
-                <strong>Your Basic Information</strong>
+            <div>
+              <div class="row">
+                <div class="col">
+                  <span>1</span> 
+                  <strong>Your Basic Information</strong>
+                </div>
               </div>
             </div>
 
             <form>
               <div class="row">
-                <div class="col ">
-                  <label for="information" class="label1 ">First Name:</label>
-                  <input type="text" class="form-control" placeholder="Jane" name="first_name" />
+                <div class="col">
+                  <label for="information" class="label1">First Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Jane"
+                    name="first_name"
+                  />
                 </div>
-                <div class="col  ">
+                <div class="col">
                   <label for="information" class="label1">Last Name:</label>
-                  <input type="text"  class="form-control" placeholder="Doe"  name="last_name"/>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Doe"
+                    name="last_name"
+                  />
                 </div>
               </div>
             </form>
 
             <div class="itemField">
-            
-                <label for="E-mail" class="label1">E-mail:</label>
-              
-              <input type="text"  class="form-control" placeholder="janedoe@example.com" />
+              <label for="E-mail" class="label1">E-mail:</label>
+
+              <input
+                type="text"
+                class="form-control"
+                placeholder="janedoe@example.com"
+              />
             </div>
 
-            <div class="item1">
-              <span class="info">2</span>
+          
               <!-- your info  -->
+
               <div>
-                <strong>Your Payment Information</strong>
+                <div class="row">
+                  <div class="col">
+                    <span>2</span> 
+                    <strong>Your Payment Information</strong>
+                  </div>
+                </div>
               </div>
-            </div>
+
+            
 
             <div class="Credit-Card">
-              <label for="information" class="label1">Credit Card</label>
+              <label for="information" class="label1">Credit Card:</label>
               <div>
-                <input type="text" placeholder="Card Number MM / YY  CVC" />
+                <input type="text" class="form-control" placeholder="Card Number  &nbsp; &nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;  MM / YY  CVC" />
               </div>
             </div>
 
